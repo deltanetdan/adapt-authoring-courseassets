@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A course asset",
+  "type": "object",
+  "properties": {
+    "_courseId": {
+      "description": "Email address for the user",
+      "type": "string",
+      "isObjectId": true
+    },
+    "_assetId": {
+      "description": "First name of the user",
+      "type": "string",
+      "isObjectId": true
+    },
+    "referenceCount": {
+      "description": "Number of time the asset has ben used in this course",
+      "type": "number",
+      "default": 1
+    }
+  },
+  "required": ["_courseId", "_assetId"]
+}
