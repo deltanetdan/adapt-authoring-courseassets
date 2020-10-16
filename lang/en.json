@@ -1,0 +1,5 @@
+{
+  "error.emptyfields": "The fields are empty",
+  "error.inserterror": "A courseassets record cannot be created",
+  "error.deleteerror": "The courseassets record to be deleted cannot be found"
+}

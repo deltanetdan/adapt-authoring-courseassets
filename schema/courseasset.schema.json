@@ -13,7 +13,7 @@
       "type": "string",
       "isObjectId": true
     },
-    "referenceCount": {
+    "assetCount": {
       "description": "Number of time the asset has ben used in this course",
       "type": "number",
       "default": 1
