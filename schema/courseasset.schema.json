@@ -5,13 +5,11 @@
   "properties": {
     "_courseId": {
       "description": "Email address for the user",
-      "type": "string",
-      "isObjectId": true
+      "type": "string"
     },
     "_assetId": {
       "description": "First name of the user",
-      "type": "string",
-      "isObjectId": true
+      "type": "string"
     },
     "assetCount": {
       "description": "Number of time the asset has ben used in this course",
