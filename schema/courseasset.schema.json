@@ -4,11 +4,15 @@
   "type": "object",
   "properties": {
     "_courseId": {
-      "description": "Email address for the user",
+      "description": "Course record unique ID",
+      "type": "string"
+    },
+    "_contentId": {
+      "description": "The ID for the content record that uses this asset",
       "type": "string"
     },
     "_assetId": {
-      "description": "First name of the user",
+      "description": "Asset record unique ID",
       "type": "string"
     },
     "assetCount": {
@@ -17,5 +21,5 @@
       "default": 1
     }
   },
-  "required": ["_courseId", "_assetId"]
+  "required": ["_courseId", "_contentId", "_assetId"]
 }
